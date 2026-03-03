@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">APICarros</string>
+    <string name="erro_ao_deletar">Erro ao deletar o carro</string>
+    <string name="erro_ao_editar">Erro ao editar carro</string>
+    <string name="editado_com_sucesso">Carro editado com sucesso</string>
+    <string name="item_deletado_com_sucesso">Carro deletado com sucesso</string>
+    <string name="deletado_com_sucesso">Carro deletado com sucesso</string>
 </resources>

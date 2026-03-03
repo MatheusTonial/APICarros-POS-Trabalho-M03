@@ -18,6 +18,14 @@ retrofit = "2.9.0"
 okhttp = "4.9.1"
 picasso = "2.8"
 
+playServicesLocation = "21.3.0"
+playServicesAuth = "21.2.0"
+maps = "19.0.0"
+
+firebaseBom = "33.4.0"
+firebaseStorage = "21.0.1"
+room = "2.8.4"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -39,6 +47,19 @@ okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor",
 
 picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
 
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "maps" }
+play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorage" }
+
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-
+kotlin-kapt = { id = "com.android.legacy-kapt", version.ref = "agp" }
