@@ -75,7 +75,7 @@ class CarroDetailActivity  : AppCompatActivity(), OnMapReadyCallback {
             withContext(Dispatchers.Main) {
                 when (result) {
                     is Result.Success -> {
-                        carro = result.data
+                        carro = result.data.value
                         handleSuccess()
                     }
                     is Result.Error -> {

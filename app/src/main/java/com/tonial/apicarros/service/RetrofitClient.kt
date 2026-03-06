@@ -1,5 +1,8 @@
 package com.tonial.apicarros.service
 
+import com.tonial.apicarros.database.DatabaseBuilder
+import okhttp3.OkHttpClient
+import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -14,8 +17,17 @@ object RetrofitClient {
             .build()
     }
 
-    val apiService: ItemApiService by lazy {
-        retrofit.create(ItemApiService::class.java)
+    private val loggingInterceptor = HttpLoggingInterceptor().apply {
+        level = HttpLoggingInterceptor.Level.BODY
+    }
+
+    private val okHttpClient = OkHttpClient.Builder()
+        .addInterceptor(GeoLocationInterceptor(DatabaseBuilder.getInstance().userLocationDao()))
+        .build()
+
+
+    val apiService: CarroApiService by lazy {
+        retrofit.create(CarroApiService::class.java)
     }
 
 }
