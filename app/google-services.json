@@ -12,7 +12,12 @@
           "package_name": "com.example.meuprimeiroapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "646012745203-rslb082a8i56f329b7amsl1nkbr1qrq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBXZRPUDmSo0jvjmPikcPkx06BNgKdgA8k"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646012745203-rslb082a8i56f329b7amsl1nkbr1qrq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -31,7 +41,20 @@
           "package_name": "com.tonial.apicarros"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "646012745203-kmfmfdr3gs1sjjhoru61m8rh5859cgft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tonial.apicarros",
+            "certificate_hash": "ce480e4f400f92ebbc8115cdcac3853d4eedd450"
+          }
+        },
+        {
+          "client_id": "646012745203-rslb082a8i56f329b7amsl1nkbr1qrq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBXZRPUDmSo0jvjmPikcPkx06BNgKdgA8k"
@@ -39,7 +62,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646012745203-rslb082a8i56f329b7amsl1nkbr1qrq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

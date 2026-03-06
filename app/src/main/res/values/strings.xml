@@ -14,7 +14,7 @@
     <string name="nao_foi_possivel_obter_a_localizacao">Não foi possivel obter a localização</string>
     <string name="nenhum_carro_encontrado">Carros nao encontrados</string>
     <string name="erro_ao_buscar_os_carros">Erro ao buscar carros</string>
-    <string name="hint_cellphone">+55 11 91234-5678</string>
+    <string name="hint_cellphone">+55 11 912345678</string>
     <string name="code_brazil">+55</string>
     <string name="send_sms">Enviar SMS</string>
     <string name="hint_verify_sms">123456</string>

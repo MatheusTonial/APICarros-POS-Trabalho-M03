@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/hint_cellphone"
         android:layout_marginStart="32dp"
-        android:text="@string/code_brazil"
+        android:text=""
         android:maxLength="14"
         app:layout_constraintTop_toTopOf="@id/btnSendSms"
         app:layout_constraintStart_toStartOf="parent"

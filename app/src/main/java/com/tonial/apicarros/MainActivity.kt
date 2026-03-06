@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Configura o Toolbar para que o menu apareça
+        setSupportActionBar(binding.toolbar)
+
         setupView()
 
         requestLocationPermission()
@@ -56,7 +59,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
-        return super.onCreateOptionsMenu(menu)
+        return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -74,8 +77,8 @@ class MainActivity : AppCompatActivity() {
         val intent = LoginActivity.newIntent(this)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
+        finish()
     }
-
 
     private fun setupView() {
         binding.swipeRefreshLayout.setOnRefreshListener {
